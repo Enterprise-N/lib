@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -392,13 +392,11 @@
 
     /* Pills de características */
     .hero-features {
-      position: absolute;
-      bottom: 100px;
-      left: 50%;
-      transform: translateX(-50%);
       display: flex;
-      gap: 16px;
-      z-index: 2;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 32px;
       opacity: 0;
       animation: fadeIn 0.8s 1.4s forwards;
       white-space: nowrap;
@@ -1626,9 +1624,8 @@
           Ver Ofertas
         </button>
       </div>
-    </div>
 
-    <div class="hero-features">
+      <div class="hero-features">
       <div class="feat-pill">
         <i class="ph ph-device-tablet"></i>
         Libros Digitales
@@ -1642,6 +1639,7 @@
         Única Autora
       </div>
     </div>
+    </div><!-- end hero-content -->
 
     <div class="hero-scroll" onclick="goTo('catalog')">
       <div class="scroll-line"></div>
